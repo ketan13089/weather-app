@@ -49,13 +49,18 @@ Error Handling: If the city is not found or the API request fails, the app displ
 
 # Handling API Response and Errors
 When dealing with user input, the app had to handle cases where the API did not return valid data.
-Solution: Implemented error handling in JavaScript to display user-friendly messages when the city is not found or the API request fails.
 
 # Responsive Design for Mobile Devices
 Making the app look good on different screen sizes, particularly mobile devices, was initially challenging.
-Solution: Used CSS Flexbox to create a responsive layout that adjusts based on the screen size. This ensures the weather information looks good on both mobile and desktop screens.
 
-#Fetching Data from the API
+# Fetching Data from the API
 Handling asynchronous API requests and ensuring data is displayed correctly was challenging.
-Solution: Used the fetch API and async/await to manage asynchronous operations and display data only after it has been successfully fetched.
+
+---
+
+# Solutions
+
+Implemented error handling in JavaScript to display user-friendly messages when the city is not found or the API request fails.
+Used CSS Flexbox to create a responsive layout that adjusts based on the screen size. This ensures the weather information looks good on both mobile and desktop screens.
+Used the fetch API and async/await to manage asynchronous operations and display data only after it has been successfully fetched.
 
