@@ -1,6 +1,6 @@
 # Weather App
 
-A brief description of your project. For example: "A simple webpage showcasing HTML, CSS, and JavaScript."
+"A simple webpage for weather details using HTML, CSS, and JavaScript."
 
 ## Table of Contents
 1. [Instructions for Running the Project Locally](#instructions-for-running-the-project-locally)
