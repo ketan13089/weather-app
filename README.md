@@ -60,7 +60,7 @@ Handling asynchronous API requests and ensuring data is displayed correctly was 
 
 # Solutions
 
--Implemented error handling in JavaScript to display user-friendly messages when the city is not found or the API request fails.
--Used CSS Flexbox to create a responsive layout that adjusts based on the screen size. This ensures the weather information looks good on both mobile and desktop screens.
--Used the fetch API and async/await to manage asynchronous operations and display data only after it has been successfully fetched.
+- Implemented error handling in JavaScript to display user-friendly messages when the city is not found or the API request fails.
+- Used CSS Flexbox to create a responsive layout that adjusts based on the screen size. This ensures the weather information looks good on both mobile and desktop screens.
+- Used the fetch API and async/await to manage asynchronous operations and display data only after it has been successfully fetched.
 
