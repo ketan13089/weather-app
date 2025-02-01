@@ -29,16 +29,16 @@ To run this project locally, follow these steps:
 
 ---
 
-##Approach
+## Approach
 
-#HTML
+# HTML
 The page consists of a simple structure: a search bar for entering the city name, an area to display the weather information, and a button to fetch the data.
 The HTML file includes the necessary elements for displaying the weather (e.g., temperature, weather conditions) dynamically.
-#CSS
+# CSS
 Responsive Design: The app is styled to be mobile-friendly using CSS Flexbox.
 Typography and Colors: The app uses simple typography and color schemes for a clean look. The background adjusts depending on the weather conditions (e.g., sunny, rainy).
 Interactive Elements: Buttons and input fields have hover and focus effects to improve the user experience.
-#JavaScript
+# JavaScript
 API Integration: The JavaScript code interacts with the OpenWeatherMap API to fetch weather data based on the city entered by the user or their current location.
 DOM Manipulation: The data fetched from the API is inserted dynamically into the webpage using JavaScript.
 Error Handling: If the city is not found or the API request fails, the app displays an appropriate error message.
