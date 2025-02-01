@@ -1,0 +1,85 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="weather-app">
+            <h1>Weather</h1>
+
+            <div class="search-container">
+                <form id="search-form">
+                    <input type="text" id="city-input" placeholder="Enter city name" required>
+                    <button type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <button id="location-btn" class="location-btn">
+                    <i class="fas fa-map-marker-alt"></i> Use My Location
+                </button>
+            </div>
+
+            <div id="error-message" class="error-message"></div>
+
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                Loading...
+            </div>
+
+            <div id="weather-info" class="weather-info hidden">
+                <h2 id="city-name"></h2>
+
+                <div class="temperature-container">
+                    <span id="temperature"></span>
+                    <button id="unit-toggle" class="unit-toggle">°C</button>
+                </div>
+
+                <div class="weather-condition">
+                    <i id="weather-icon" class="fas"></i>
+                    <span id="condition"></span>
+                </div>
+
+                <div class="weather-details">
+                    <div class="detail">
+                        <i class="fas fa-tint"></i>
+                        <div class="detail-info">
+                            <span>Humidity</span>
+                            <span id="humidity"></span>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <i class="fas fa-wind"></i>
+                        <div class="detail-info">
+                            <span>Wind Speed</span>
+                            <span id="wind-speed"></span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="aqi-detail">
+
+                    <i class="fas fa-lungs"></i>
+                    <div class="detail-info">
+                        <span>Air Quality</span>
+                        <div class="aqi-info">
+                            <span id="air-quality"></span>
+                            <span id="aqi-text" class="aqi-text"></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
