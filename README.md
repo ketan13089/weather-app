@@ -1,6 +1,6 @@
 # Weather App
 
-"A simple webpage for weather details using HTML, CSS, and JavaScript."
+A simple webpage for weather details using HTML, CSS, and JavaScript.
 
 ## Table of Contents
 1. [Instructions for Running the Project Locally](#instructions-for-running-the-project-locally)
@@ -25,4 +25,4 @@ To run this project locally, follow these steps:
    If you have Git installed, you can clone the project repository:
 
    ```bash
-   git clone https://github.com/your-username/your-project-name.git
+   git clone https://github.com/ketan13089/weather-app.git
