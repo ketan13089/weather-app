@@ -6,7 +6,7 @@ A simple webpage for weather details using HTML, CSS, and JavaScript.
 1. [Instructions for Running the Project Locally](#instructions-for-running-the-project-locally)
 2. [Approach](#approach)
 3. [Challenges Faced](#challenges-faced)
-4. [Solutions Implemented](#solutions-implemented)
+4. [Solutions](#solutions)
 
 ---
 
@@ -60,7 +60,7 @@ Handling asynchronous API requests and ensuring data is displayed correctly was 
 
 # Solutions
 
-Implemented error handling in JavaScript to display user-friendly messages when the city is not found or the API request fails.
-Used CSS Flexbox to create a responsive layout that adjusts based on the screen size. This ensures the weather information looks good on both mobile and desktop screens.
-Used the fetch API and async/await to manage asynchronous operations and display data only after it has been successfully fetched.
+-Implemented error handling in JavaScript to display user-friendly messages when the city is not found or the API request fails.
+-Used CSS Flexbox to create a responsive layout that adjusts based on the screen size. This ensures the weather information looks good on both mobile and desktop screens.
+-Used the fetch API and async/await to manage asynchronous operations and display data only after it has been successfully fetched.
 
