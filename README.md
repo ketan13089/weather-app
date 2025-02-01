@@ -27,6 +27,7 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/ketan13089/weather-app.git
 
+---
 
 ##Approach
 
